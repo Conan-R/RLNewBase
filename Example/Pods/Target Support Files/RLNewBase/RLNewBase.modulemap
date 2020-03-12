@@ -1,0 +1,6 @@
+framework module RLNewBase {
+  umbrella header "RLNewBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

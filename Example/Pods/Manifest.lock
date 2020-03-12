@@ -1,0 +1,23 @@
+PODS:
+  - RLNewBase (0.1.0):
+    - SnapKit
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - RLNewBase (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  RLNewBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RLNewBase: 81934ef6c0a5e14544a2609be2ffb1a692fd6d7b
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 35dfc120eb5899ac030a2bdbf3cf30b99061b15c
+
+COCOAPODS: 1.6.1
