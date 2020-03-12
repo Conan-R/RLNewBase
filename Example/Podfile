@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RLNewBase_Example' do
+  pod 'RLNewBase', :path => '../'
+
+  target 'RLNewBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
