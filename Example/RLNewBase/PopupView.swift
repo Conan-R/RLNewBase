@@ -10,10 +10,5 @@ import UIKit
 import RLNewBase
 
 class PopupView: RLPopupView {
-
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        type = .alert
-    }
-
+   
 }
