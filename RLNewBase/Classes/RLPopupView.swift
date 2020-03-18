@@ -9,16 +9,16 @@
 import UIKit
 import SnapKit
 
-enum RLPopupType {
+public enum RLPopupType {
     case sheet
     case alert
     case custom
 }
 
-typealias RLPopupBlock = (RLPopupView) -> Void
-typealias RLPopupCompletionBlock = (RLPopupView, Bool) -> Void
+public typealias RLPopupBlock = (RLPopupView) -> Void
+public typealias RLPopupCompletionBlock = (RLPopupView, Bool) -> Void
 
-class RLPopupView: UIView {
+open class RLPopupView: UIView {
     // 透明层颜色
     open var presentViewColor: UIColor = UIColor.yellow
     // 背景点击是否关闭
@@ -57,7 +57,7 @@ class RLPopupView: UIView {
         backgroundColor = .white
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }

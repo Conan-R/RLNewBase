@@ -8,7 +8,3 @@
 
 import UIKit
 import RLNewBase
-
-class PopupView: RLPopupView {
-   
-}
