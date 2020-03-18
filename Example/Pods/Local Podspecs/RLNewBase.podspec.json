@@ -1,9 +1,9 @@
 {
   "name": "RLNewBase",
-  "version": "0.1.0",
-  "summary": "A short description of RLNewBase.",
+  "version": "0.2.0",
+  "summary": "A short description",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1056709274@qq.com/RLNewBase",
+  "homepage": "https://github.com/Conan-R/RLNewBase.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "1056709274@qq.com": "wujianren@chandashi.com"
   },
   "source": {
-    "git": "https://github.com/1056709274@qq.com/RLNewBase.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Conan-R/RLNewBase.git",
+    "tag": "0.2.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
   "source_files": "RLNewBase/Classes/**/*",
   "frameworks": "UIKit",
